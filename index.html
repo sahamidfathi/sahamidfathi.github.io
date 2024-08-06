@@ -4,68 +4,46 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Projects</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f9fc;
-    color: #333;
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    background-color: #e0f7ff;
-    color: #007bff;
-    padding: 20px;
-    text-align: center;
-  }
-  .content {
-    padding: 20px;
-  }
-  .project {
-    border: 1px solid #e0f7ff;
-    border-radius: 10px;
-    padding: 15px;
-    margin-bottom: 20px;
-    background-color: #ffffff;
-  }
-  .project-title {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  .project-description {
-    margin-bottom: 10px;
-  }
-  .project-links a {
-    color: #007bff;
-    text-decoration: none;
-    margin-right: 10px;
-  }
-  .project-links a:hover {
-    text-decoration: underline;
-  }
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>My Projects</h1>
-  </header>
-  <div class="content">
-    <div class="project">
-      <div class="project-title">Project One</div>
-      <div class="project-description">A brief description of Project One.</div>
-      <div class="project-links">
-        <a href="https://github.com/username/project-one" target="_blank">GitHub</a>
-        <a href="https://username.github.io/project-one" target="_blank">Live Demo</a>
-      </div>
-    </div>
-    <div class="project">
-      <div class="project-title">Project Two</div>
-      <div class="project-description">A brief description of Project Two.</div>
-      <div class="project-links">
-        <a href="https://github.com/username/project-two" target="_blank">GitHub</a>
-        <a href="https://username.github.io/project-two" target="_blank">Live Demo</a>
-      </div>
-    </div>
+  <div class="container">
+    <aside>
+      <h1 style="color: black;">Hamid Fathi</h1>
+      <p><small>Room 327, ORCCA Lab, Department of Computer Science, Western University, ON N6A 5B7, Canada<br>
+      <a href="mailto:sfathi4@uwo.ca">sfathi4@uwo.ca</a> <a href="mailto:sahamidfathi@gmail.com">sahamidfathi@gmail.com</a> <br>
+      <a href="path/to/your_resume.pdf" target="_blank">Resume</a></p></small>
+      
+      <!-- <a href="https://github.com/username" target="_blank">View My GitHub Profile</a> -->
+    </aside>
+    <main>
+      <section>
+        <h2>Interests</h2>
+        <!-- using multi-core CPUs and GPGPUs -->
+        <p>I am interested in the design and analysis of efficient algorithms, high-performance and parallel computing, and compiler optimization.</p>
+        <h2>Experience</h2>
+        <p>I have five years of experience in C++ software development for both academic and industrial purposes.</p>
+        <h2>Education</h2>
+        <p></p>
+        <h2>Other Projects</h2>
+        <article>
+          <h3>Project One</h3>
+          <p>A brief description of Project One.</p>
+          <div class="links">
+            <a href="https://github.com/username/project-one" target="_blank">GitHub</a>
+            <a href="https://username.github.io/project-one" target="_blank">Live Demo</a>
+          </div>
+        </article>
+        <article>
+          <h3>Project Two</h3>
+          <p>A brief description of Project Two.</p>
+          <div class="links">
+            <a href="https://github.com/username/project-two" target="_blank">GitHub</a>
+            <a href="https://username.github.io/project-two" target="_blank">Live Demo</a>
+          </div>
+        </article>
+      </section>
+    </main>
   </div>
 </body>
 </html>
