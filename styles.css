@@ -99,3 +99,22 @@ article p {
     color: #ffffff;
 }
 
+aside a {
+    display: flex;
+    align-items: center;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+aside a i {
+    margin-right: 8px;
+    font-size: 1.1em;
+}
+
+aside a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
