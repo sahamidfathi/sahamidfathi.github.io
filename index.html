@@ -1,45 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hamid Fathi</title>
 <link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    <aside>
-      <h1 style="color: black;">Hamid Fathi</h1>
-      <p><small>Room 327, ORCCA Lab, Department of Computer Science, Western University, ON N6A 5B7, Canada<br>
-      <a href="mailto:sfathi4@uwo.ca">sfathi4@uwo.ca</a> <a href="mailto:sahamidfathi@gmail.com">sahamidfathi@gmail.com</a> <br>
-      <a href="path/to/your_resume.pdf" target="_blank">My Resume</a></p></small>
-      
-      <!-- <a href="https://github.com/username" target="_blank">View My GitHub Profile</a> -->
-    </aside>
+<aside>
+  <h1>Hamid Fathi</h1>
+  <img src="/home/hamid/sahf.jpeg" alt="Hamid Fathi" style="width:150px;height:150px;border-radius:50%;">
+  <p>
+    Room 327, ORCCA Lab, Department of Computer Science, Western University, ON N6A 5B7, Canada<br><br>
+    <!--Email: <a href="mailto:sfathi4@uwo.ca">sfathi4@uwo.ca</a>-->
+    <a href="mailto:sahamidfathi@gmail.com">sahamidfathi@gmail.com</a><br>
+    <a href="https://www.linkedin.com/in/hamid-fathi" target="_blank">LinkedIn</a><br>
+    <a href="path/to/your_resume.pdf" target="_blank">Resume</a>
+  </p>
+</aside>
+
     <main>
       <section>
-        <h2>Interests</h2>
-        <!-- using multi-core CPUs and GPGPUs -->
-        <p>I am interested in the design and analysis of efficient algorithms, high-performance and parallel computing, and compiler optimization.</p>
+        <p>With over 4 years of experience in C++ software development for academic and industrial applications, I am interested in the design and analysis of efficient algorithms, high-performance and parallel computing, and compiler optimization.</p>
+
         <h2>Experience</h2>
-        <p>I have +4 years of professional experience in C++ software development for both academic and industrial applications.</p>
-        <h2>Education</h2>
-        <p></p>
+
+		<article>
+    <h3>Researcher and C++ Developer</h3>
+    <p><strong>Sep. 2022 - Present</strong> | <a href="https://www.orcca.on.ca/" target="_blank">ORCCA</a>, Computer Science Department, Western University, Canada</p>
+    <ul>
+  <li>Implemented an efficient thread pool with a work-stealing scheduler in C++.</li>
+  <li>Developed a fast polynomial multiplication module using the Karatsuba method in the <a href="https://bpaslib.org" target="_blank">BPAS library</a>.</li>
+  <li>Designed and implemented an object-oriented model in C++ to manipulate power series.</li>
+</ul>
+
+<div class="links-container">
+		<div class="links">
+		<a href="https://ir.lib.uwo.ca/etd/10337" target="_blank">Thesis</a>
+		</div>
+		<div class="links">
+		<a href="https://github.com/sahamidfathi/Thesis/blob/main/MScThesisSlides.pdf" target="_blank">Slides</a>
+		</div>
+		</div>
+
+	<br>
+
+    Supervisor: <a href="https://www.csd.uwo.ca/~mmorenom/homepage-moreno.html" target="_blank">Dr. Marc Moreno Maza</a>
+		</article>
+
+
+		<article>
+		<h3>C++ Software Engineer</h3>
+		<p><strong>Jun. 2020 - Jul. 2022</strong> | MAPSA Technology Center, Tehran, Iran</p>
+		<ul>
+  <li>Developed and maintained efficient C++ code for the computation engine and UI.</li>
+  <li>Provided research-based solutions and algorithms for various software modules.</li>
+  <li>Collaborated in an agile team using scrum methodology to enhance project outcomes.</li>
+</ul>
+
+		Supervisor: <a href="mailto:jahanbakhshi@mapsaeng.com">Dr. Saman Jahanbakhshi</a></p>
+		</article>
+
+		<article>
+		<h3>Teaching Assistant</h3>
+		<p><strong>Computer Science Department, Western University, Canada</strong></p>
+		Created tutorials, led lab sessions, and helped students with the following courses:
+			<ul>
+				<li>Operating Systems - Winter 2024</li>
+				<li>C++ Object-Oriented Design and Analysis - Fall 2023</li>
+				<li>Discrete Structures for Computing - Winter 2023</li>
+				<li>Software Tools and Systems Programming - Fall 2022</li>
+			</ul>
+		</article>
+
+
+		<h2>Publications</h2>
+		<p>Fathi, Seyed Abdol Hamid, <strong>Efficient Algorithms and Parallel Implementations for Power Series Multiplication</strong> (2024). Electronic Thesis and Dissertation Repository. 10337. 
+		<a href="https://ir.lib.uwo.ca/etd/10337" target="_blank">https://ir.lib.uwo.ca/etd/10337</a></p>
+		
+		
+		
+
+
         <h2>Other Projects</h2>
         <article>
-          <h3>The Double Description Method</h3>
-          <p>A brief description of Project One.</p>
-          <div class="links">
-            <a href="https://github.com/username/project-one" target="_blank">GitHub Repo</a>
-          </div>
+          <h3>The Double Description Method (Polyhedral Sets)</h3>
+          <p>Polyhedral sets are used in optimizing compilers to model, analyze, transform and schedule for-loops of computer programs. An important operation on polyhedral sets is the conversion between H-representation (a system of linear inequalities) and V-representation (vertices and rays). This conversion can be done by the Double Description Method. I implemented the Double Description Method in C++ which will be integrated in the Maple software.</p>
+         
+          Supervisor: <a href="https://www.csd.uwo.ca/~mmorenom/homepage-moreno.html" target="_blank">Dr. Marc Moreno Maza</a>
         </article>
         <article>
-          <h3>Project Two</h3>
-          <p>A brief description of Project Two.</p>
-          <div class="links">
-            <a href="https://github.com/username/project-two" target="_blank">GitHub Repo</a>
-          </div>
+          <h3>Energy Efficient Broadcasting Algorithms for Wireless Networks</h3>
+          <p>Energy efficiency is crucial for wireless ad hoc networks as they rely on batteries with a finite lifespan. Two energy-efficient broadcasting algorithms, namely the Broadcast Incremental Power (BIP) and the Embedded Wireless Multicast Advantage (EWMA), along with their complexity analyses are reviewed in this report. Also, the BIP algorithm is implemented in C++ with successful tests for small and large network sizes.</p>
+          
+          
+          
+          
+		<div class="links-container">
+		<div class="links">
+		<a href="https://github.com/sahamidfathi/min-energy-broadcast-algorithms/tree/main" target="_blank">GitHub Repo</a>
+		</div>
+		<div class="links">
+		<a href="https://github.com/sahamidfathi/min-energy-broadcast-algorithms/blob/main/report.pdf" target="_blank">Report</a>
+		</div>
+		</div>
+
+          <br>
+          Instructor: <a href="https://www.csd.uwo.ca/~rsolisob/" target="_blank">Dr. Roberto Solis-Oba</a>
+          
         </article>
+       <!-- <article>
+          <h3>MapReduce</h3>
+          <p>A brief description of Project Three.</p>
+          <div class="links">
+            <a href="https://github.com/username/project-three" target="_blank">GitHub Repo</a>
+          </div>
+          <br>
+          Instructor: <a href="https://www.csd.uwo.ca/people/faculty/bios/lutfiyya.html" target="_blank">Dr. Hanan Lutfiyya</a>
+        </article> -->
+        
+        <h2>Education</h2>
+<article>
+                    <h1>M.Sc. in Computer Science</h1>
+                    <p><strong>Sep. 2022 - Present</strong> | Western University, London, Canada (GPA: 4.0/4.0)</p>
+                </article>
+
+                <article>
+                    <h1>M.Sc. in Engineering</h1>
+                    <p><strong>Sep. 2018 - Sep. 2020</strong> | Sharif University of Technology, Tehran, Iran (GPA: 4.0/4.0)</p>
+                </article>
+
+                <article>
+                    <h1>B.Sc. in Engineering</h1>
+                    <p><strong>Sep. 2014 - Jul. 2018</strong> | Abadan Institute of Technology, Ahwaz, Iran (GPA: 3.92/4.0)</p>
+                </article>
+        
       </section>
     </main>
   </div>
