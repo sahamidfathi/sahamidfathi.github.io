@@ -28,7 +28,7 @@ body {
 }
 
 aside {
-    width: 30%;
+    width: 25%; /* Adjust the width to make it shorter */
     padding-right: 20px;
     border-right: 2px solid #e9ecef;
 }
@@ -57,7 +57,7 @@ aside a:hover {
 }
 
 main {
-    width: 70%;
+    width: 75%; /* Adjust the main content area to fill the remaining space */
     padding-left: 20px;
 }
 
